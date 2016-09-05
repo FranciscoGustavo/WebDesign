@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>Search</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
-		<div class="menu">Menu</div>
+		<div class="menu">
+			<span class="icon-menu"></span>
+		</div>
 		<div class="form">
-			<form>
-				<input type="text" name="">
-				<label></label>
+			<form action="">
+				<div class="widget">
+					<div onclick="Swich()" id="btnSch" class="icon-search"></div>
+					<input type="text" id="search" autocomplete="off" placeholder="Search">
+					<div id="btnClose" onclick="Closed()" class="icon-cross"></div>
+				</div>
 			</form>
 		</div>
 	</header>
+
+	<script src="main.js">
+
+	</script>
 </body>
 </html>

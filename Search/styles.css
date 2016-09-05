@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header {
+	background: #2196f3;
+	color: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	box-shadow: 0px 0px 5px black;
+}
+
+div.menu {
+	font-size: 20px;
+
+	width: 20%;
+	height: 50px;
+	padding: 12px 20px;
+	box-sizing: border-box; 
+}
+
+div.form {
+	width: 80%;
+	height: 50px;
+	max-width: 390px;
+	float: right;
+	margin-left: 20%;
+	margin-top: -50px;
+}
+
+div.widget{
+	position: relative;
+	margin-right: 20px;
+	height: 50px;
+
+}
+
+div.icon-cross {
+	font-size: 18px;
+	position: absolute;
+	top: 14px;
+	right: 0px;
+	cursor: pointer;
+	transition: .1s;
+/*--------------*/
+	font-size: 0;
+}
+
+div.icon-search {
+	font-size: 18px;
+	position: absolute;
+	width: 10%;
+	top: 14px;
+	right: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+input {
+	position: absolute;
+	width: 90%;
+	top: 12px;
+	right: 0;
+	border: 0;
+	color: #FFF;
+	opacity: .8;
+	padding-bottom: 5px;
+	background: transparent;
+	border-bottom: 1px solid #FFF;
+	font-size: 16px;
+	box-sizing: border-box;
+	transition: all .1s;
+/*--------------*/
+	width: 0%;
+}
+
+input:focus {
+	border-bottom: 2px solid #FFF;
+	opacity: 1;
+}
