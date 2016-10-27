@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dasboard</title>
+	<link rel="stylesheet" type="text/css" href="stye.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="cont" id="cont">
+		<div class="titulo">
+			<h2>Titulo de mi blog</h2>
+		</div>
+		<div class="despliege" onclick="despliege()">
+			<span>V</span>
+		</div>
+		<div class="info" id="info">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.
+			</p>
+		</div>
+	</div>
+
+	<div class="cont" id="cont">
+		<div class="titulo">
+			<h2>Titulo de mi blog</h2>
+		</div>
+		<div class="despliege" onclick="despliege()">
+			<span>V</span>
+		</div>
+		<div class="info" id="info">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.
+			</p>
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		var cont = document.getElementById('cont');
+		var info = document.getElementById('info');
+		var active = 0;
+
+		function despliege () {
+
+			if (active == 1) {
+				cont.style.height = "70px";
+				info.style.display = "none";
+				active = 0;
+			} else {
+				cont.style.height = "300px";
+				info.style.display = "block";
+				active = 1;
+			}
+		}
+
+
+
+	</script>
+
+</body>
+</html>

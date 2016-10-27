@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #C1C1C1;
+}
+
+.cont {
+	position: relative;
+	margin: 50px auto;
+	width: 300px;
+	height: 70px;
+	background: #FFF;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	transition: .5s;
+	overflow: hidden;
+}
+
+.titulo, .despliege {
+	position: absolute;
+	top: 0;
+	height: 70px;
+	text-align: center;
+	padding: 15px 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.titulo {
+	background: ;
+	width: 250px;
+	font-size: 1.2em;
+
+}
+.despliege {
+	cursor: pointer;
+	right: 0;
+	width: 50px;
+	font-size: 2em;
+	background: ;
+	
+}
+
+.info {
+	position: absolute;
+	top: 70px;
+	left: 5%;
+	width: 90%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-top: 2px solid rgba(0,0,0,.3);
+	display: none;
+	overflow: hidden;
+}

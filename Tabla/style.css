@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F1F1F1;
+}
+
+ul {
+	list-style: none;
+	width: 90%;
+	margin: 10px auto;
+}
+
+ul li {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #FFF;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.information {
+	width: 100%;
+}
+
+.information h1 {
+	padding-top: 3px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.information p {
+	padding: 3px 5px;
+}
+
+.bottom-controls {
+	width: 100%;
+}
+
+.bottom-controls div {
+	width: 45%;
+	display: flex;
+
+}
+.bottom-controls div a {
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+}
+.new {
+	position: fixed;
+	bottom: 5vh;
+	right: 5%;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background: #03a9f4;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0,0,0,.7);
+}
+
+.new a {
+	display: block;
+	height: 55px;
+	padding-top: 12.5px;
+	font-size: 2.4em;
+	color: #FFF;
+	
+}
